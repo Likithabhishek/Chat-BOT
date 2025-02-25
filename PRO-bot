@@ -1,0 +1,22 @@
+print("HI WELCOM TO BUZZ_CAFA ")
+print("TYPE 'bye' TO EXIT THT CHAT")
+
+us1=input(str("")).lower()
+
+data={"What is your menu?": """
+    Our menu includes the following items:
+    - Pizza: Margherita, Pepperoni, Veggie
+    - Burgers: Classic Burger, Cheese Burger, Vegan Burger
+    - Pastas: Spaghetti, Lasagna, Penne Alfredo
+    - Drinks: Cola, Lemonade, Iced Tea
+    - Desserts: Ice Cream, Chocolate Cake, Fruit Salad
+    """,
+    "What are your business hours?": "We are open from 9 AM to 9 PM, Monday to Sunday.",
+    "Where is your store located?": "Our store is located at 123 Main St, Springfield.",
+    "How can I contact customer support?": "You can contact customer support at support@example.com."
+    
+}
+if us1  in data:
+  print(data[us1])
+else:
+  print("sorry i dont understand")
