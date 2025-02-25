@@ -3,18 +3,18 @@ print("TYPE 'bye' TO EXIT THT CHAT")
 
 us1=input(str("")).lower()
 
-data={"What is your menu?": """
+data={"what is your menu?": """
     Our menu includes the following items:
-    - Pizza: Margherita, Pepperoni, Veggie
-    - Burgers: Classic Burger, Cheese Burger, Vegan Burger
-    - Pastas: Spaghetti, Lasagna, Penne Alfredo
-    - Drinks: Cola, Lemonade, Iced Tea
-    - Desserts: Ice Cream, Chocolate Cake, Fruit Salad
+    - Pizza: 150RS, 200RS, 250RS
+    - Burgers: 100RS, 120RS, 150RS
+    - Pastas: 120RS, 150RS, 180RS
+    - Drinks: 50RS, 70RS, 100RS
+    - Desserts: 80RS, 100RS, 120RS
     """,
-    "What are your business hours?": "We are open from 9 AM to 9 PM, Monday to Sunday.",
-    "Where is your store located?": "Our store is located at 123 Main St, Springfield.",
-    "How can I contact customer support?": "You can contact customer support at support@example.com."
-    
+    "what are your business hours?": "We are open from 9 AM to 9 PM, Monday to Sunday.",
+    "where is your store located?": "Our store is located at 123 Main St, Springfield.",
+    "how can I contact customer support?": "You can contact customer support at support@example.com.",
+    "likith":"hi likith"
 }
 if us1  in data:
   print(data[us1])
