@@ -12,9 +12,9 @@ data={"what is your menu?": """
     - Desserts: 80RS, 100RS, 120RS
     """,
     "what are your business hours?": "We are open from 9 AM to 9 PM, Monday to Sunday.",
-    "where is your store located?": "Our store is located at 123 Main St, Springfield.",
-    "how can I contact customer support?": "You can contact customer support at support@example.com.",
-    "likith":"hi likith"
+    "where is your store located?": " Teresian College Circle, above Ola Showroom, Yaraganahalli, Mysore .",
+    "how can I contact customer support?": "You can contact customer support at support@example.com or call-9019870241.",
+    
 }
 if us1  in data:
   print(data[us1])
