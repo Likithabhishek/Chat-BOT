@@ -1,5 +1,5 @@
 print("HI WELCOM TO BUZZ_CAFA ")
-print("TYPE 'bye' TO EXIT THT CHAT")
+print("TYPE 'bye' TO EXIT THE CHAT")
 
 us1=input(str("")).lower()
 
