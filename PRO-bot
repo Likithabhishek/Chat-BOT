@@ -18,5 +18,8 @@ data={"what is your menu?": """
 }
 if us1  in data:
   print(data[us1])
+
+if us1=="bye":
+  print("Thank you, have a nice day  ")
 else:
   print("sorry i dont understand")
