@@ -1,6 +1,6 @@
-# Buzz_Cafa Chatbot
+# Buzz_Cafe Chatbot
 
-Welcome to the Buzz_Cafa chatbot! This is a simple text-based chatbot created for a café business. It allows users to ask questions about the menu, business hours, location, and contact details. The chatbot will respond based on predefined queries.
+Welcome to the Buzz_Cafe chatbot! This is a simple text-based chatbot created for a café business. It allows users to ask questions about the menu, business hours, location, and contact details. The chatbot will respond based on predefined queries.
 
 ## Features
 - Responds to questions about the café's menu, hours, location, and contact.
